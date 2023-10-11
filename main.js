@@ -13,7 +13,7 @@ body.appendChild(dialog);
 const button = document.createElement("button");
 button.textContent = "Help!";
 button.classList.add("sls-button");
-button.addEventListener(() => {dialog.showModal();});
+button.addEventListener("click", () => {dialog.showModal();});
 body.appendChild(button);
 
 // Styling
