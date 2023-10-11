@@ -12,6 +12,7 @@ dialog.classList.add("sls-dialog");
 body.appendChild(dialog);
 
 const image = document.createElement("img");
+image.src = "https://assets.codepen.io/579289/stopwatch.png?format=auto";
 image.addEventListener("click", () => {dialog.close();});
 dialog.appendChild(image);
 
