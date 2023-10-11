@@ -9,7 +9,7 @@ dialog.appendChild(container);
 const image = document.createElement("img");
 image.src = "https://assets.codepen.io/579289/stopwatch.png?format=auto";
 image.addEventListener("click", () => {dialog.removeAttribute("open");});
-dialog.appendChild(image);
+container.appendChild(image);
 body.appendChild(dialog);
 
 const button = document.createElement("button");
@@ -22,7 +22,7 @@ body.appendChild(button);
 const styles = document.createElement("style");
 styles.textContent = `
 .sls-button {position: fixed; top: 10px; right: 10px;}
-.sls-dialog {position: fixed; inset: 0; background-color: rgba(0,0,0,0.2);}
+.sls-dialog {position: fixed; inset: 0; background-color: rgba(0,0,0,0.2); border: 0;}
 .sls-container {width: 100%; height: 100%; display: flex; place-content: center center;}
 .sls-dialog img {max-width: 100%; max-height: 100%}
 `;
