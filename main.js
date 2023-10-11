@@ -21,7 +21,7 @@ body.appendChild(dialog);
 const styles = document.createElement("style");
 styles.textContent = `
 .sls-button {position: fixed; top: 10px; right: 10px;}
-.sls-dialog {display: flex; place-content: center center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.2);}
+.sls-dialog {display: flex; place-content: center center; position: fixed; inset: 0; background-color: rgba(0,0,0,0.2);}
 .sls-dialog img {max-width: 100%; max-height: 100%}
 `;
 body.appendChild(styles);
