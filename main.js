@@ -1,21 +1,20 @@
 // Refs
 const body = document.body;
 
-const button = document.createElement("button");
-button.textContent = "Help!";
-button.classList.add("sls-button");
-button.addEventListener
-body.appendChild(button);
-
 const dialog = document.createElement("dialog");
 dialog.classList.add("sls-dialog");
-body.appendChild(dialog);
 
 const image = document.createElement("img");
 image.src = "https://assets.codepen.io/579289/stopwatch.png?format=auto";
 image.addEventListener("click", () => {dialog.close();});
 dialog.appendChild(image);
 body.appendChild(dialog);
+
+const button = document.createElement("button");
+button.textContent = "Help!";
+button.classList.add("sls-button");
+button.addEventListener(() => {dialog.showModal();});
+body.appendChild(button);
 
 // Styling
 const styles = document.createElement("style");
