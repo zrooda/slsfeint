@@ -27,7 +27,7 @@ const styles = document.createElement("style");
 styles.textContent = `
 @import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;700&display=swap");
 html, body {width: 100%; height: 100%;}
-body {margin: 0; font-family: "Playpen Sans", cursive;}
+body {margin: 0;}
 *, *::before, *::after {box-sizing: border-box;}
 .sls-button {position: fixed !important; top: 20px; right: 20px;}
 .sls-dialog {width: 100%; height: 100%; position: fixed; left: 0; top: 0; background-color: rgba(0,0,0,0.4); border: 0; z-index: 1000;}
@@ -77,6 +77,7 @@ body {margin: 0; font-family: "Playpen Sans", cursive;}
   position: relative;
   padding: 8px 20px;
   border-radius: 12px;
+  font-family: "Playpen Sans", cursive;
   font-size: 1.1rem;
   font-weight: bold;
   color: white;
