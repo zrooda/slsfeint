@@ -14,7 +14,7 @@ body.appendChild(dialog);
 
 const button = document.createElement("button");
 button.classList.add("sls-button", "pushable");
-button.innerHtml = `
+button.innerHTML = `
 <span class="shadow"></span>
 <span class="edge"></span>
 <span class="front">Help!</span>
