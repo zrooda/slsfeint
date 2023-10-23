@@ -29,7 +29,7 @@ styles.textContent = `
 html, body {width: 100%; height: 100%;}
 body {margin: 0; font-family: "Playpen Sans", cursive;}
 *, *::before, *::after {box-sizing: border-box;}
-.sls-button {position: fixed !important; top: 10px; right: 10px;}
+.sls-button {position: fixed !important; top: 20px; right: 20px;}
 .sls-dialog {width: 100%; height: 100%; position: fixed; left: 0; top: 0; background-color: rgba(0,0,0,0.4); border: 0; z-index: 1000;}
 .sls-container {width: 100%; height: 100%; display: flex; place-content: center center;}
 .sls-dialog img {max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 12px;}
