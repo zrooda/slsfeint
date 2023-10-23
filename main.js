@@ -25,7 +25,7 @@ body.appendChild(button);
 // Styling
 const styles = document.createElement("style");
 styles.textContent = `
-@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;700&display=swap");
 html, body {width: 100%; height: 100%;}
 body {margin: 0; font-family: "Playpen Sans", cursive;}
 *, *::before, *::after {box-sizing: border-box;}
@@ -78,6 +78,7 @@ body {margin: 0; font-family: "Playpen Sans", cursive;}
   padding: 8px 20px;
   border-radius: 12px;
   font-size: 1.1rem;
+  font-weight: bold;
   color: white;
   background: hsl(345deg 100% 47%);
   will-change: transform;
