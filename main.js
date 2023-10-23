@@ -34,7 +34,6 @@ body {margin: 0; font-family: "Playpen Sans", cursive;}
 .sls-container {width: 100%; height: 100%; display: flex; place-content: center center;}
 .sls-dialog img {max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 12px;}
 .pushable {
-  position: relative;
   border: none;
   background: transparent;
   padding: 0;
@@ -75,9 +74,9 @@ body {margin: 0; font-family: "Playpen Sans", cursive;}
 .front {
   display: block;
   position: relative;
-  padding: 12px 42px;
+  padding: 8px 20px;
   border-radius: 12px;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: white;
   background: hsl(345deg 100% 47%);
   will-change: transform;
